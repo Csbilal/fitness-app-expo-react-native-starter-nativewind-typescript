@@ -1,6 +1,8 @@
 import { Link } from "expo-router";
 import React from "react";
-import { SafeAreaView, Text, View } from "react-native";
+import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
 
 export default function Page() {
   return (
@@ -59,7 +61,7 @@ function Content() {
                 suppressHighlighting
                 className="flex h-9 items-center justify-center overflow-hidden rounded-md bg-green-700 px-4 py-2 text-sm font-medium text-gray-50 web:shadow ios:shadow transition-colors hover:bg-gray-900/90 active:bg-gray-400/90 web:focus-visible:outline-none web:focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 href="https://www.papareact.com/course"
-              >
+              >Join My Course
                 Join My Course & Learn to Code with AI 💚 (1000+ Students)
               </Link>
             </View>
